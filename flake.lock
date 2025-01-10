@@ -1,0 +1,23 @@
+{
+  "nodes": {
+    "root": {
+      "inputs": {
+        "sysrepo": "sysrepo"
+      }
+    },
+    "sysrepo": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-JO+lFN2HsCwSLMUWXHeOad6QUxOuwe9UOAF/iSl1J4I=",
+        "path": "/nix/store/fz4h8yz3qr83p6cfhisgj02knjqg6nxs-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
