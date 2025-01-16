@@ -17,11 +17,7 @@
           pkgs = sysrepo.legacyPackages.${system};
         in
         rec {
-          alsa-lib =
-            with pkgs;
-            alsa-lib-with-plugins.override {
-              plugins = [ alsa-plugins ];
-            };
+          alsa-lib = pkgs.alsa-lib-with-plugins;
 
           mednafen = pkgs.mednafen.override {
             inherit alsa-lib;
