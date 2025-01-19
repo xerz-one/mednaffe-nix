@@ -2,7 +2,7 @@
   description = "Mednaffe with ALSA plugins";
 
   inputs = {
-    sysrepo.url = "nixpkgs";
+    sysrepo.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
 
   outputs =
